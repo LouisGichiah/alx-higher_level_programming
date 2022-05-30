@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 number = 8
-f"{number} Battery street"
+print(f"{number:d} Battery street")
