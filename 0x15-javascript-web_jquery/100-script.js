@@ -1,5 +1,4 @@
-(function () {
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelector('header').style.color = '#FF0000';
-    }, false);
-  })();
+window.addEventListener('DOMContentLoaded', function () {
+    const header = document.querySelector('HEADER');
+    header.style.color = '#FF0000';
+  });
